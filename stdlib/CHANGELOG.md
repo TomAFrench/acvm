@@ -1,5 +1,28 @@
 # Changelog
 
+## [0.12.0](https://github.com/TomAFrench/acvm/compare/acvm_stdlib-v0.11.0...acvm_stdlib-v0.12.0) (2023-05-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* organise operator implementations for Expression ([#190](https://github.com/TomAFrench/acvm/issues/190))
+* **acir:** rename `term_addition` to `push_addition_term`
+* **acir:** rename `term_multiplication` to `push_multiplication_term` ([#122](https://github.com/TomAFrench/acvm/issues/122))
+* refactor ToRadix to ToRadixLe and ToRadixBe ([#58](https://github.com/TomAFrench/acvm/issues/58))
+
+### Bug Fixes
+
+* add default flag to `acvm_stdlib` ([#242](https://github.com/TomAFrench/acvm/issues/242)) ([83b6fa8](https://github.com/TomAFrench/acvm/commit/83b6fa8302569add7e3ac8481b2fd2a6a1ff3576))
+* prevent `bn254` feature flag always being enabled ([#225](https://github.com/TomAFrench/acvm/issues/225)) ([82eee6a](https://github.com/TomAFrench/acvm/commit/82eee6ab08ae480f04904ca8571fd88f4466c000))
+
+
+### Miscellaneous Chores
+
+* **acir:** rename `term_addition` to `push_addition_term` ([d389385](https://github.com/TomAFrench/acvm/commit/d38938542851a97dc01727438391e6a65e44c689))
+* **acir:** rename `term_multiplication` to `push_multiplication_term` ([#122](https://github.com/TomAFrench/acvm/issues/122)) ([d389385](https://github.com/TomAFrench/acvm/commit/d38938542851a97dc01727438391e6a65e44c689))
+* organise operator implementations for Expression ([#190](https://github.com/TomAFrench/acvm/issues/190)) ([a619df6](https://github.com/TomAFrench/acvm/commit/a619df614bbb9b2518b788b42a7553b069823a0f))
+* refactor ToRadix to ToRadixLe and ToRadixBe ([#58](https://github.com/TomAFrench/acvm/issues/58)) ([2427a27](https://github.com/TomAFrench/acvm/commit/2427a275048e598c6d651cce8348a4c55148f235))
+
 ## [0.11.0](https://github.com/noir-lang/acvm/compare/acvm_stdlib-v0.10.3...acvm_stdlib-v0.11.0) (2023-05-04)
 
 
