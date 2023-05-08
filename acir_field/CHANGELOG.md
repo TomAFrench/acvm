@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.12.0](https://github.com/TomAFrench/acvm/compare/acir_field-v0.11.0...acir_field-v0.12.0) (2023-05-08)
+
+
+### Features
+
+* implement `FieldElement::from&lt;bool&gt;()` ([#203](https://github.com/TomAFrench/acvm/issues/203)) ([476cfa2](https://github.com/TomAFrench/acvm/commit/476cfa247fddb515c64c2801c6868357c9375294))
+* Update Arkworks' dependencies on `acir_field` ([#69](https://github.com/TomAFrench/acvm/issues/69)) ([65d6130](https://github.com/TomAFrench/acvm/commit/65d61307a12f25e04afad2d50e4c4db5ce97dd8c))
+
+
+### Bug Fixes
+
+* prevent `bn254` feature flag always being enabled ([#225](https://github.com/TomAFrench/acvm/issues/225)) ([82eee6a](https://github.com/TomAFrench/acvm/commit/82eee6ab08ae480f04904ca8571fd88f4466c000))
+
 ## [0.11.0](https://github.com/noir-lang/acvm/compare/acir_field-v0.10.3...acir_field-v0.11.0) (2023-05-04)
 
 
